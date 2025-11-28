@@ -1,0 +1,77 @@
+{
+  "69299c668d5378bb603e4a3e": {
+    "itemTplToClone": "59e6687d86f77411d949b251",
+    "parentId": "5447b5f14bdc2d61278b4567",
+    "handbookParentId": "5b5f78fc86f77409407a7f90",
+    "overrideProperties": {
+      "BackgroundColor": "violet",
+      "bFirerate": 600,
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": true,
+      "ExaminedByDefault": true,
+      "weapFireType": [
+        "single",
+        "fullauto"
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Molot Arms VPO-209 .366 TKM assault rifle - #Rev. 2",
+        "shortName": "VPO-209 AR",
+        "description": "The regular Molot Arms VPO-209 carbine which is modified to an assault rifle. Modified by ODIN."
+      }
+    },
+    "fleaPriceRoubles": 43000,
+    "handbookPriceRoubles": 43000,
+    "addtoBots": true,
+    "addtoModSlots": true,
+    "addtoStaticLootContainers": true,
+    "StaticLootContainers": [
+      {
+        "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+        "Probability": 30
+      },
+      {
+        "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "Probability": 30
+      },
+      {
+        "ContainerName": "LOOTCONTAINER_LONG_WEAPON_BOX",
+        "Probability": 30
+      },
+      {
+        "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "Probability": 30
+      },
+      {
+        "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "Probability": 30
+      },
+      {
+        "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "Probability": 30
+      },
+      {
+        "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "Probability": 30
+      },
+      {
+        "ContainerName": "LOOTCONTAINER_WOODEN_AMMO_BOX",
+        "Probability": 30
+      },
+      {
+        "ContainerName": "LOOTCONTAINER_WOODEN_AMMO_BOX_3X3_2",
+        "Probability": 30
+      },
+      {
+        "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "Probability": 30
+      },
+      {
+        "ContainerName": "LOOTCONTAINER_WOODEN_CRATE_5X2_2",
+        "Probability": 30
+      }
+    ],
+    "addtoTraders": false
+  }
+}

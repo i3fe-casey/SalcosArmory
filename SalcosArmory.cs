@@ -15,10 +15,10 @@ public sealed record ModMetadata : AbstractModMetadata
     public override string ModGuid { get; init; } = "com.salco.salcosarmory";
     public override string Name { get; init; } = "Salco's Armory";
     public override string Author { get; init; } = "Salco";
-    public override SemanticVersioning.Version Version { get; init; } = new("1.0.0");
+    public override SemanticVersioning.Version Version { get; init; } = new("1.1.0");
     public override Range SptVersion { get; init; } = new("~4.0.0");
     public override string License { get; init; } = "MIT";
-    public override bool? IsBundleMod { get; init; } = false;
+    public override bool? IsBundleMod { get; init; } = true;
     public override Dictionary<string, Range>? ModDependencies { get; init; } = new()
     {
         { "com.wtt.commonlib", new Range("~2.0.0") }
