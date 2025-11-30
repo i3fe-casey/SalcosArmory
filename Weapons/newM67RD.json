@@ -1,34 +1,39 @@
 {
-  "69193a87e2147615ce92bf00": {
-    "itemTplToClone": "5efaf417aeb21837e749c7f2",
-    "parentId": "55818a104bdc2db9688b4569",
-    "handbookParentId": "5b5f75e486f77447ec5d7712",
+  "692c3c289e3db2af6116c804": {
+    "itemTplToClone": "58d3db5386f77426186285a0",
+    "parentId": "543be6564bdc2df4348b4568",
+    "handbookParentId": "5b5f7a2386f774093f2ed3c4",
     "overrideProperties": {
       "BackgroundColor": "violet",
-      "ConflictingItems": [],
-      "CanRequireOnRagfair": true,
       "CanSellOnRagfair": true,
-      "Ergonomics": 11,
-      "Recoil": -5.5
+      "CanRequireOnRagfair": true,
+      "ExaminedByDefault": true,
+	  "ExplDelay": 1.5,
+	  "explDelay": 1.5
     },
     "locales": {
       "en": {
-        "name": "AK Zenit B-30 Rev. 2",
-        "shortName": "B30 Rev.2",
-        "description": "Reforged by ODIN."
+        "name": "M67 hand grenade (Reduced delay)",
+        "shortName": "M67 RD",
+        "description": "This version is personally modified by Odin and Partisan."
       }
     },
-    "fleaPriceRoubles": 32545,
-    "handbookPriceRoubles": 18327,
+    "fleaPriceRoubles": 34111,
+    "handbookPriceRoubles": 1022,
     "addtoBots": true,
     "addtoModSlots": true,
-    "modSlot": [
-      "mod_handguard"
-    ],
     "addtoStaticLootContainers": true,
     "StaticLootContainers": [
       {
         "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+        "Probability": 2500
+      },
+      {
+        "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "Probability": 2500
+      },
+      {
+        "ContainerName": "LOOTCONTAINER_LONG_WEAPON_BOX",
         "Probability": 2500
       },
       {

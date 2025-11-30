@@ -1,6 +1,6 @@
 {
-  "6915e22280a3b8eb5ddef6ea": {
-    "itemTplToClone": "5ed51652f6c34d2cc26336a1",
+  "692bee1b7c84392d084badea": {
+    "itemTplToClone": "637b620db7afa97bfc3d7009",
     "parentId": "5448f3a64bdc2d60728b456a",
     "handbookParentId": "5b47574386f77428ca22b33a",
     "overrideProperties": {
@@ -13,13 +13,13 @@
     },
     "locales": {
       "en": {
-        "name": "M.U.L.E. stimulant injector Rev. 2",
-        "shortName": "MULE Rev.2",
-        "description": "Muscular Ultra Large Exciter. It is used to expand the body's abilities before long marches. Developed by ODIN and Sanitar."
+        "name": "Trimadol stimulant injector Rev. 2",
+        "shortName": "Trmdl Rev.2",
+        "description": "An opioid synthetic analgesic developed for special forces operatives. It has a central and spinal cord action (promotes opening of K+ and Ca2+ channels, causes hyperpolarization of membranes and inhibits conduction of pain impulses). Developed by ODIN and Sanitar."
       }
     },
     "fleaPriceRoubles": 0,
-    "handbookPriceRoubles": 72555,
+    "handbookPriceRoubles": 180125,
     "addtoBots": true,
     "addtoModSlots": true,
     "addtoStaticLootContainers": true,

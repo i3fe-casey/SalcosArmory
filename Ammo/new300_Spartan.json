@@ -8,6 +8,8 @@
       "ammoRec": 6,
       "ArmorDamage": 58,
       "BackgroundColor": "red",
+	  "CanRequireOnRagfair": false,
+	  "CanSellOnRagfair": false,
       "Damage": 57,
       "HeavyBleedingDelta": 0.1,
       "InitialSpeed": 884,
@@ -19,7 +21,7 @@
       "MisfireChance": 0.01,
       "PenetrationChanceObstacle": 0.34,
       "PenetrationDamageMod": 0.125,
-      "PenetrationPower": 49,
+      "PenetrationPower": 51,
       "RicochetChance": 0.3,
       "Tracer": true,
       "TracerColor": "red"
@@ -31,76 +33,74 @@
         "description": "Modified and combined version of the .300 Blackout AP and .300 CBJ. Modified by ODIN."
       }
     },
-    "fleaPriceRoubles": 980,
-    "handbookPriceRoubles": 980,
+    "fleaPriceRoubles": 1150,
+    "handbookPriceRoubles": 1145,
     "addtoBots": true,
-
     "addCaliberToAllCloneLocations": true,
     "addtoStaticAmmo": true,
-    "staticAmmoProbability": 5,
-
+    "staticAmmoProbability": 1900,
     "addtoModSlots": false,
     "addtoStaticLootContainers": true,
 		"staticLootContainers": [
 			{
 				"containerName": "LOOTCONTAINER_DEAD_SCAV",
-				"probability": 35
+				"probability": 1900
 			},
 			{
 				"containerName": "LOOTCONTAINER_BURIED_BARREL_CACHE",
-				"probability": 35
+				"probability": 1900
 			},
 			{
 				"containerName": "LOOTCONTAINER_CIVILIAN_BODY",
-				"probability": 35
+				"probability": 1900
 			},
 			{
 				"containerName": "LOOTCONTAINER_DEAD_SCAV_4X4_2",
-				"probability": 35
+				"probability": 1900
 			},
 			{
 				"containerName": "LOOTCONTAINER_LONG_WEAPON_BOX",
-				"probability": 35
+				"probability": 1900
 			},
 			{
 				"containerName": "LOOTCONTAINER_PMC_BODY",
-				"probability": 35
+				"probability": 1900
 			},
 			{
 				"containerName": "LOOTCONTAINER_SCAV_BODY",
-				"probability": 35
+				"probability": 1900
 			},
 			{
 				"containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-				"probability": 35
+				"probability": 1900
 			},
 			{
 				"containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
-				"probability": 35
+				"probability": 1900
 			},
 			{
 				"containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
-				"probability": 35
+				"probability": 1900
 			},
 			{
 				"containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
-				"probability": 35
+				"probability": 1900
 			},
 			{
 				"containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX",
-				"probability": 35
+				"probability": 1900
 			},
 			{
 				"containerName": "LOOTCONTAINER_WOODEN_AMMO_BOX_3X3_2",
-				"probability": 35
+				"probability": 1900
 			},
 			{
 				"containerName": "LOOTCONTAINER_WOODEN_CRATE",
-				"probability": 35
+				"probability": 1900
 			},
 			{
 				"containerName": "LOOTCONTAINER_WOODEN_CRATE_5X2_2",
-				"probability": 35
+				"probability": 1900
 			}
 		],
     "addtoTraders": false

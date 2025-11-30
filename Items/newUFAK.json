@@ -57,8 +57,8 @@
     },
     "locales": {
       "en": {
-        "name": "UFAK Individual first aid kit - #Rev. 2",
-        "shortName": "UFAK R2",
+        "name": "UFAK Individual first aid kit",
+        "shortName": "UFAK",
         "description": "The UFAK (Ultimate First Aid Kit) is considered one of the best first aid kits. Developed by ODIN and Sanitar."
       }
     },
@@ -67,42 +67,43 @@
     "addtoBots": true,
     "addtoModSlots": true,
     "addtoStaticLootContainers": true,
+	"addtoSpecialSlots": true,
     "StaticLootContainers": [
       {
         "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
-        "Probability": 45
+        "Probability": 2600
       },
       {
         "ContainerName": "LOOTCONTAINER_AIRDROP_MEDICAL_CRATE",
-        "Probability": 45
+        "Probability": 2600
       },
       {
         "ContainerName": "LOOTCONTAINER_DUFFLE_BAG",
-        "Probability": 45
+        "Probability": 2600
       },
       {
         "ContainerName": "LOOTCONTAINER_DUFFLE_BAG_ADV",
-        "Probability": 45
+        "Probability": 2600
       },
       {
         "ContainerName": "LOOTCONTAINER_LAB_TECHNICIAN_BODY",
-        "Probability": 45
+        "Probability": 2600
       },
       {
         "ContainerName": "LOOTCONTAINER_MEDBAG_SMU06",
-        "Probability": 45
+        "Probability": 2600
       },
       {
         "ContainerName": "LOOTCONTAINER_MEDBAG_SMU06_ADV",
-        "Probability": 45
+        "Probability": 2600
       },
       {
         "ContainerName": "LOOTCONTAINER_MEDCASE",
-        "Probability": 45
+        "Probability": 2600
       },
       {
         "ContainerName": "LOOTCONTAINER_MEDICAL_SUPPLY_CRATE",
-        "Probability": 45
+        "Probability": 2600
       }
     ],
     "addtoTraders": false

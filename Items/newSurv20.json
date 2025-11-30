@@ -40,44 +40,45 @@
     "fleaPriceRoubles": 94125,
     "handbookPriceRoubles": 72000,
     "addtoBots": true,
+	"addtoSpecialSlots": true,
     "addtoModSlots": true,
     "addtoStaticLootContainers": true,
     "StaticLootContainers": [
       {
         "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
-        "Probability": 29
+        "Probability": 2600
       },
       {
         "ContainerName": "LOOTCONTAINER_AIRDROP_MEDICAL_CRATE",
-        "Probability": 29
+        "Probability": 2600
       },
       {
         "ContainerName": "LOOTCONTAINER_DUFFLE_BAG",
-        "Probability": 29
+        "Probability": 2600
       },
       {
         "ContainerName": "LOOTCONTAINER_DUFFLE_BAG_ADV",
-        "Probability": 29
+        "Probability": 2600
       },
       {
         "ContainerName": "LOOTCONTAINER_LAB_TECHNICIAN_BODY",
-        "Probability": 29
+        "Probability": 2600
       },
       {
         "ContainerName": "LOOTCONTAINER_MEDBAG_SMU06",
-        "Probability": 29
+        "Probability": 2600
       },
       {
         "ContainerName": "LOOTCONTAINER_MEDBAG_SMU06_ADV",
-        "Probability": 29
+        "Probability": 2600
       },
       {
         "ContainerName": "LOOTCONTAINER_MEDCASE",
-        "Probability": 29
+        "Probability": 2600
       },
       {
         "ContainerName": "LOOTCONTAINER_MEDICAL_SUPPLY_CRATE",
-        "Probability": 29
+        "Probability": 2600
       }
     ],
     "addtoTraders": false

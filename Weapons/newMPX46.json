@@ -1,22 +1,27 @@
 {
-  "691ba4785e6cf9012ca2742c": {
-    "itemTplToClone": "676176d362e0497044079f4c",
-    "parentId": "5447b5f14bdc2d61278b4567",
-    "handbookParentId": "5b5f78fc86f77409407a7f90",
+  "692ac593e5d8d844e441088d": {
+    "itemTplToClone": "58948c8e86f77409493f7266",
+    "parentId": "5447b5e04bdc2d62278b4567",
+    "handbookParentId": "5b5f796a86f774093f2ed3c0",
     "overrideProperties": {
-      "ammoCaliber": "Caliber68x51",
-      "BackgroundColor": "violet",
+      "ammoCaliber": "Caliber46x30",
+	  "BackgroundColor": "violet",
+      "defAmmo": "5ba2678ad4351e44f824b344",
+      "defMagType": "5ba2657ed4351e0035628ff2",
       "Chambers": [
         {
           "_name": "patron_in_weapon",
-          "_id": "676176d362e0497044079f53",
-          "_parent": "691ba4785e6cf9012ca2742c",
+          "_id": "692ac59e3d93c7560143328d",
+          "_parent": "692ac593e5d8d844e441088d",
           "_props": {
             "filters": [
               {
                 "Filter": [
-                  "6529243824cbe3c74a05e5c1",
-                  "6529302b8c26af6326029fb7"
+                  "5ba26812d4351e003201fef1",
+                  "5ba26844d4351e00334c9475",
+                  "64b6979341772715af0f9c39",
+                  "5ba2678ad4351e44f824b344",
+                  "5ba26835d4351e0035628ff5"
                 ]
               }
             ]
@@ -29,8 +34,8 @@
       "Slots": [
         {
           "_name": "mod_pistol_grip",
-          "_id": "676176d362e0497044079f4e",
-          "_parent": "691ba4785e6cf9012ca2742c",
+          "_id": "58948c8f86f77409493f7267",
+          "_parent": "692ac593e5d8d844e441088d",
           "_props": {
             "filters": [
               {
@@ -61,6 +66,7 @@
                   "59db3b0886f77429d72fb895",
                   "615d8faecabb9b7ad90f4d5d",
                   "5b07db875acfc40dc528a5f6",
+                  "5894a51286f77426d13baf02",
                   "63f5feead259b42f0b4d6d0f",
                   "652911675ae2ae97b80fdf3c"
                 ],
@@ -74,19 +80,15 @@
         },
         {
           "_name": "mod_magazine",
-          "_id": "676176d362e0497044079f4f",
-          "_parent": "691ba4785e6cf9012ca2742c",
+          "_id": "692ac86cfccc35301c4aadf9",
+          "_parent": "692ac593e5d8d844e441088d",
           "_props": {
             "filters": [
               {
-                "AnimationIndex": -1,
                 "Filter": [
-                  "5df8f535bb49d91fb446d6b0",
-                  "5df8f541c41b2312ea3335e3",
-                  "65293c38fc460e50a509cb25",
-                  "65293c7a17e14363030ad308",
-                  "5a3501acc4a282000d72293a",
-                  "6761770e48fa5c377e06fc3c"
+                  "5ba264f6d4351e0034777d52",
+                  "5ba2657ed4351e0035628ff2",
+                  "5ba26586d4351e44f824b340"
                 ]
               }
             ]
@@ -97,14 +99,13 @@
         },
         {
           "_name": "mod_reciever",
-          "_id": "676176d362e0497044079f50",
-          "_parent": "691ba4785e6cf9012ca2742c",
+          "_id": "58948c8f86f77409493f7269",
+          "_parent": "692ac593e5d8d844e441088d",
           "_props": {
             "filters": [
               {
                 "Filter": [
-                  "6165adcdd3a39d50044c120f",
-                  "6165aeedfaa1272e431521e3"
+                  "5894a5b586f77426d2590767"
                 ],
                 "Shift": 0
               }
@@ -116,35 +117,42 @@
         },
         {
           "_name": "mod_stock",
-          "_id": "676176d362e0497044079f51",
-          "_parent": "691ba4785e6cf9012ca2742c",
+          "_id": "58948c8f86f77409493f726a",
+          "_parent": "692ac593e5d8d844e441088d",
           "_props": {
             "filters": [
               {
                 "Filter": [
-                  "61816734d8e3106d9806c1f3",
-                  "61825d06d92c473c770215de",
-                  "66ffc246a81a4f85e70d4d06",
-                  "66ffbfb1a73a7bce3d0b45a8",
-                  "66ffc20ba73a7bce3d0b45ab"
+                  "58ac1bf086f77420ed183f9f",
+                  "5894a13e86f7742405482982",
+                  "5fbcc429900b1d5091531dd7",
+                  "5fbcc437d724d907e2077d5c",
+                  "5c5db6ee2e221600113fba54",
+                  "5c5db6f82e2216003a0fe914",
+                  "6529348224cbe3c74a05e5c4",
+                  "6686717ffb75ee4a5e02eb19",
+                  "6761496fe2cf1419500357e9"
                 ],
                 "Shift": 0
               }
             ]
           },
-          "_required": true,
+          "_required": false,
           "_mergeSlotWithChildren": false,
           "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
           "_name": "mod_charge",
-          "_id": "676176d362e0497044079f52",
-          "_parent": "691ba4785e6cf9012ca2742c",
+          "_id": "58948c8f86f77409493f726b",
+          "_parent": "692ac593e5d8d844e441088d",
           "_props": {
             "filters": [
               {
                 "Filter": [
-                  "6181688c6c780c1e710c9b04"
+                  "5c5db6b32e221600102611a0",
+                  "58949edd86f77409483e16a9",
+                  "58949fac86f77409483e16aa",
+                  "6761492dc53ebe8c0f0a5efe"
                 ],
                 "Shift": 0
               }
@@ -158,13 +166,13 @@
     },
     "locales": {
       "en": {
-        "name": "SCAR-68 6.8x51 assault rifle",
-        "shortName": "SCAR-68",
-        "description": "The SCAR-68 is a modified SCAR-H pattern rifle chambered in 6.8x51. Developed and Modified by ODIN."
+        "name": "SIG MPX 4.6x30 submachine gun",
+        "shortName": "MPX46",
+        "description": "Custom SIG MPX variant chambered in 4.6x30mm. Modified by ODIN."
       }
     },
-    "fleaPriceRoubles": 120455,
-    "handbookPriceRoubles": 68455,
+    "fleaPriceRoubles": 65000,
+    "handbookPriceRoubles": 50000,
     "addtoBots": true,
     "addtoModSlots": true,
     "addtoStaticLootContainers": true,
