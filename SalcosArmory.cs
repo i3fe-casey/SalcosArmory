@@ -15,7 +15,7 @@ public sealed record ModMetadata : AbstractModMetadata
     public override string ModGuid { get; init; } = "com.salco.salcosarmory";
     public override string Name { get; init; } = "Salco's Armory";
     public override string Author { get; init; } = "Salco";
-    public override SemanticVersioning.Version Version { get; init; } = new("1.1.0");
+    public override SemanticVersioning.Version Version { get; init; } = new("1.2.0");
     public override Range SptVersion { get; init; } = new("~4.0.0");
     public override string License { get; init; } = "MIT";
     public override bool? IsBundleMod { get; init; } = true;
@@ -43,6 +43,8 @@ public sealed class SalcosArmoryMod(
         await wttCommon.CustomItemServiceExtended.CreateCustomItems(assembly, Path.Join("Ammo"));
         await wttCommon.CustomItemServiceExtended.CreateCustomItems(assembly, Path.Join("Attachments"));
         await wttCommon.CustomItemServiceExtended.CreateCustomItems(assembly, Path.Join("Items"));
+
+        await wttCommon.CustomHideoutRecipeService.CreateHideoutRecipes(assembly, Path.Join("Recipes"));
 
         SalcosCompat.Apply(databaseService, assembly, logger);
 
