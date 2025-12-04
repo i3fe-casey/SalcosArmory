@@ -1,27 +1,27 @@
 {
   "items": [
     {
-      "_id": "692c3c289e3db2af6116c804",
-      "_tpl": "692c3c289e3db2af6116c804",
+      "_id": "693067c854c8431e7fb2d8ce",
+      "_tpl": "693067c854c8431e7fb2d8ce",
       "parentId": "hideout",
       "slotId": "hideout",
       "upd": {
         "UnlimitedCount": true,
-        "StackObjectsCount": 7
+        "StackObjectsCount": 120
       }
     }
   ],
   "barter_scheme": {
-    "692c3c289e3db2af6116c804": [
+    "693067c854c8431e7fb2d8ce": [
       [
         {
-          "count": 33155,
+          "count": 1055,
           "_tpl": "5449016a4bdc2d6f028b456f"
         }
       ]
     ]
   },
   "loyal_level_items": {
-    "692c3c289e3db2af6116c804": 1
+    "693067c854c8431e7fb2d8ce": 1
   }
 }

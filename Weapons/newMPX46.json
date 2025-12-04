@@ -88,7 +88,8 @@
                 "Filter": [
                   "5ba264f6d4351e0034777d52",
                   "5ba2657ed4351e0035628ff2",
-                  "5ba26586d4351e44f824b340"
+                  "5ba26586d4351e44f824b340",
+				  "6930a594219c45e84f4915ef"
                 ]
               }
             ]
@@ -179,47 +180,47 @@
     "StaticLootContainers": [
       {
         "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
-        "Probability": 2500
+        "Probability": 3500
       },
       {
         "ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
-        "Probability": 2500
+        "Probability": 3500
       },
       {
         "ContainerName": "LOOTCONTAINER_LONG_WEAPON_BOX",
-        "Probability": 2500
+        "Probability": 3500
       },
       {
         "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "Probability": 2500
+        "Probability": 3500
       },
       {
         "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
-        "Probability": 2500
+        "Probability": 3500
       },
       {
         "ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
-        "Probability": 2500
+        "Probability": 3500
       },
       {
         "ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
-        "Probability": 2500
+        "Probability": 3500
       },
       {
         "ContainerName": "LOOTCONTAINER_WOODEN_AMMO_BOX",
-        "Probability": 2500
+        "Probability": 3500
       },
       {
         "ContainerName": "LOOTCONTAINER_WOODEN_AMMO_BOX_3X3_2",
-        "Probability": 2500
+        "Probability": 3500
       },
       {
         "ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
-        "Probability": 2500
+        "Probability": 3500
       },
       {
         "ContainerName": "LOOTCONTAINER_WOODEN_CRATE_5X2_2",
-        "Probability": 2500
+        "Probability": 3500
       }
     ],
     "addtoTraders": false

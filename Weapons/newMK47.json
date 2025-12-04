@@ -1,23 +1,40 @@
 {
-  "691ba4785e6cf9012ca2742c": {
-    "itemTplToClone": "676176d362e0497044079f4c",
+  "692f357ab1b58ccb39b813ac": {
+    "itemTplToClone": "606587252535c57a13424cfd",
     "parentId": "5447b5f14bdc2d61278b4567",
     "handbookParentId": "5b5f78fc86f77409407a7f90",
     "overrideProperties": {
-      "ammoCaliber": "Caliber68x51",
-	  "bFirerate": 700,
+      "ammoCaliber": "Caliber545x39",
       "BackgroundColor": "violet",
+	  "bFirerate": 720,
+	  "CanRequireOnRagfair": true,
+	  "CanSellOnRagfair": true,
+	  "Ergonomics": 41,
+	  "RecoilForceBack": 368,
+	  "RecoilForceUp": 122,
+	  "weapClass": "assaultRifle",
       "Chambers": [
         {
           "_name": "patron_in_weapon",
-          "_id": "676176d362e0497044079f53",
-          "_parent": "691ba4785e6cf9012ca2742c",
+          "_id": "692f366103571492d3dc88d1",
+          "_parent": "692f357ab1b58ccb39b813ac",
           "_props": {
             "filters": [
               {
                 "Filter": [
-                  "6529243824cbe3c74a05e5c1",
-                  "6529302b8c26af6326029fb7"
+                  "5c0d5e4486f77478390952fe",
+                  "61962b617c6c7b169525f168",
+                  "56dfef82d2720bbd668b4567",
+                  "56dff026d2720bb8668b4567",
+                  "56dff061d2720bb5668b4567",
+                  "56dff0bed2720bb0668b4567",
+                  "56dff216d2720bbd668b4568",
+                  "56dff2ced2720bb4668b4567",
+                  "56dff338d2720bbd668b4569",
+                  "56dff3afd2720bba668b4567",
+                  "56dff421d2720b5f5a8b4567",
+                  "56dff4a2d2720bbd668b456a",
+                  "56dff4ecd2720b5f5a8b4568"
                 ]
               }
             ]
@@ -30,8 +47,8 @@
       "Slots": [
         {
           "_name": "mod_pistol_grip",
-          "_id": "676176d362e0497044079f4e",
-          "_parent": "691ba4785e6cf9012ca2742c",
+          "_id": "606587252535c57a13424cff",
+          "_parent": "692f357ab1b58ccb39b813ac",
           "_props": {
             "filters": [
               {
@@ -75,19 +92,25 @@
         },
         {
           "_name": "mod_magazine",
-          "_id": "676176d362e0497044079f4f",
-          "_parent": "691ba4785e6cf9012ca2742c",
+          "_id": "606587252535c57a13424d00",
+          "_parent": "692f357ab1b58ccb39b813ac",
           "_props": {
             "filters": [
               {
                 "AnimationIndex": -1,
                 "Filter": [
-                  "5df8f535bb49d91fb446d6b0",
-                  "5df8f541c41b2312ea3335e3",
-                  "65293c38fc460e50a509cb25",
-                  "65293c7a17e14363030ad308",
-                  "5a3501acc4a282000d72293a",
-                  "6761770e48fa5c377e06fc3c"
+                  "564ca9df4bdc2d35148b4569",
+				  "564ca99c4bdc2d16268b4589",
+                  "55d480c04bdc2d1d4e8b456a",
+                  "5cbdaf89ae9215000e5b9c94",
+                  "55d481904bdc2d8c2f8b456a",
+                  "55d482194bdc2d1d4e8b456b",
+                  "55d4837c4bdc2d1d4e8b456c",
+                  "5aaa4194e5b5b055d06310a5",
+                  "5bed61680db834001d2c45ab",
+                  "5bed625c0db834001c062946",
+                  "649ec30cb013f04a700e60fb",
+                  "64b9e265c94d0d15c5027e35"
                 ]
               }
             ]
@@ -98,14 +121,13 @@
         },
         {
           "_name": "mod_reciever",
-          "_id": "676176d362e0497044079f50",
-          "_parent": "691ba4785e6cf9012ca2742c",
+          "_id": "606587252535c57a13424d01",
+          "_parent": "692f357ab1b58ccb39b813ac",
           "_props": {
             "filters": [
               {
                 "Filter": [
-                  "6165adcdd3a39d50044c120f",
-                  "6165aeedfaa1272e431521e3"
+                  "606587a88900dc2d9a55b659"
                 ],
                 "Shift": 0
               }
@@ -116,18 +138,29 @@
           "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_name": "mod_stock",
-          "_id": "676176d362e0497044079f51",
-          "_parent": "691ba4785e6cf9012ca2742c",
+          "_name": "mod_stock_001",
+          "_id": "606587252535c57a13424d02",
+          "_parent": "692f357ab1b58ccb39b813ac",
           "_props": {
             "filters": [
               {
                 "Filter": [
-                  "61816734d8e3106d9806c1f3",
-                  "61825d06d92c473c770215de",
-                  "66ffc246a81a4f85e70d4d06",
-                  "66ffbfb1a73a7bce3d0b45a8",
-                  "66ffc20ba73a7bce3d0b45ab"
+                  "606587e18900dc2d9a55b65f",
+                  "5a33ca0fc4a282000d72292f",
+                  "5c0faeddd174af02a962601f",
+                  "5649be884bdc2d79388b4577",
+                  "5d120a10d7ad1a4e1026ba85",
+                  "5b0800175acfc400153aebd4",
+                  "5947e98b86f774778f1448bc",
+                  "5947eab886f77475961d96c5",
+                  "602e3f1254072b51b239f713",
+                  "5c793fb92e221644f31bfb64",
+                  "5c793fc42e221600114ca25d",
+                  "591aef7986f774139d495f03",
+                  "591af10186f774139d495f0e",
+                  "627254cc9c563e6e442c398f",
+                  "638de3603a1a4031d8260b8c",
+                  "6761777a1f08ed5e8800b7ac"
                 ],
                 "Shift": 0
               }
@@ -139,13 +172,23 @@
         },
         {
           "_name": "mod_charge",
-          "_id": "676176d362e0497044079f52",
-          "_parent": "691ba4785e6cf9012ca2742c",
+          "_id": "606587252535c57a13424d03",
+          "_parent": "692f357ab1b58ccb39b813ac",
           "_props": {
             "filters": [
               {
                 "Filter": [
-                  "6181688c6c780c1e710c9b04"
+                  "606587bd6d0bd7580617bacc",
+				  "5c0faf68d174af02a96260b8",
+                  "56ea7165d2720b6e518b4583",
+                  "55d44fd14bdc2d962f8b456e",
+                  "5ea16d4d5aad6446a939753d",
+                  "5bb20dbcd4351e44f824c04e",
+                  "6033749e88382f4fab3fd2c5",
+                  "5b2240bf5acfc40dc528af69",
+                  "5d44334ba4b9362b346d1948",
+                  "5f633ff5c444ce7e3c30a006",
+                  "651bf5617b3b552ef6712cb7"
                 ],
                 "Shift": 0
               }
@@ -159,13 +202,13 @@
     },
     "locales": {
       "en": {
-        "name": "SCAR-68 6.8x51 assault rifle",
-        "shortName": "SCAR-68",
-        "description": "The SCAR-68 is a modified SCAR-H pattern rifle chambered in 6.8x51. Developed and Modified by ODIN."
+        "name": "CMMG Mk47 Mutant 5.45x39 assault rifle - #Rev. 2",
+        "shortName": "MK47 R2",
+        "description": "The second revision of the CMMG Mk47 Mutant, modified to fire 5.45x39mm. Developed and modified by ODIN."
       }
     },
-    "fleaPriceRoubles": 120455,
-    "handbookPriceRoubles": 68455,
+    "fleaPriceRoubles": 78455,
+    "handbookPriceRoubles": 25197,
     "addtoBots": true,
     "addtoModSlots": true,
     "addtoStaticLootContainers": true,
